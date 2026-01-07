@@ -207,6 +207,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s;
+  margin-left: 80px;
 }
 
 .btn-delete:hover {
@@ -286,19 +287,18 @@ body {
 }
 
 .rating {
-  /* background-color: var(--color-background-100); */
+  background-color: var(--color-background-100);
   border-radius: 0.9rem;
-  /* padding: 2rem 2.4rem; */
+  padding: 2rem 2.4rem;
   margin-bottom: 0.8rem;
   font-weight: 600;
-  gap: 0.5rem;
 }
 
-.rating p {
+/* .rating p {
   font-size: 1.5rem;
   margin-top: 12px;
-  padding-left: 10px;
-}
+  padding-left: 5px;
+} */
 
 .btn-add {
   background-color: var(--color-primary);

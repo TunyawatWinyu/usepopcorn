@@ -44,13 +44,16 @@ function RatingStars({ onSetRating }) {
             fontSize: "30px",
             cursor: "pointer",
             color: getStarColor(index),
+            margin: "2px",
           }}
         >
           ★
         </span>
       ))}
-      <div>
-        <p>{hoveredRating || rating || ""}</p>
+      <div
+        style={{ display: "flex", justifyContent: "center", fontSize: "2rem" }}
+      >
+        <p>{hoveredRating || rating}</p>
       </div>
     </>
   );
