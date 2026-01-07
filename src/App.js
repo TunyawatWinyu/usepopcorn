@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import StarRating from "./StarRating";
-import { split } from "postcss/lib/list";
 
 // const tempMovieData = [
 //   {
@@ -303,7 +302,7 @@ function MovieDetails({
       }
       FetchMovieDetails();
     },
-    [selectedId]
+    [selectedId, KEY]
   );
 
   return (
